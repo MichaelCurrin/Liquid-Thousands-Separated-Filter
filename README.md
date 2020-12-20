@@ -1,7 +1,7 @@
 # Liquid Thousands Separated Filter
 > Jekyll Liquid filter to add thousands separator to a number
 
-[![Ruby - >=2.6](https://img.shields.io/badge/Ruby->%3D2.6-?logo=ruby&logoColor=white)](https://ruby-lang.org)
+[![Ruby - >=2.6](https://img.shields.io/badge/Ruby->%3D2.6-blue?logo=ruby&logoColor=white)](https://ruby-lang.org)
 [![License - CC0 Universal](https://img.shields.io/badge/License-CC0_Universal-blue)](#license)
 
 A basic [Liquid](http://docs.shopify.com/themes/liquid-documentation/basics) / [Jekyll](http://jekyllrb.com) filter that adds thousands-separators to a number. The default separator is a comma.
