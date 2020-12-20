@@ -8,36 +8,41 @@ A basic [Liquid](http://docs.shopify.com/themes/liquid-documentation/basics) / [
 
 ### Basic
 
-    {{ "123456789" | thousands_separated }}
-    
-Renders as:
-
-    123,456,789
+```liquid
+{{ "123456789" | thousands_separated }}
+```
+```
+123,456,789
+```
 
 ### Custom separator
 
-    {{ "123456789" | thousands_separated: " " }}
-
-    123 456 789
+```liquid
+{{ "123456789" | thousands_separated: " " }}
+```
+```
+123 456 789
+```
 
 
 ## Installation
 
-Create `_plugins` directory.
-
-Create a file at path `_plugins/thousands-separated-filter.rb`.
-
-Copy contents of [thousands-separated-filter.rb](/thousands-separated-filter.rb) to that file.
+You can do this in GitHub without cloning this project.
+ 
+1. Create a `_plugins` directory in your Jekyll project.
+2. Create a file at the path `_plugins/thousands-separated-filter.rb`.
+3. Copy the contents of [thousands-separated-filter.rb](/thousands-separated-filter.rb) to that file.
 
 
 ## Usage
 
-    {{ value | thousands_separated }}
+```liquid
+{{ value | thousands_separated }}
+```
 
 
 ## License
 
+License under [CC0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/deed.en) Matt Gemmell - [mattgemmell.com](http://mattgemmell.com) - [@mattgemmell](http://twitter.com/mattgemmell).
 
-By Matt Gemmell - [mattgemmell.com](http://mattgemmell.com) - [@mattgemmell](http://twitter.com/mattgemmell)
-
-License: [CC0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
+On this fork by [@MichaelCurrin](https://github.com/MichaelCurrin) - doc changes and code style changes 
